@@ -83,7 +83,7 @@ public class EmailServlet extends HttpServlet {
 			      Session session = Session.getDefaultInstance(properties,new Authenticator(){
 			        public PasswordAuthentication getPasswordAuthentication()
 			        {
-			         return new PasswordAuthentication("2461167723@qq.com", "fmbhylvclukkeahd"); //发件人邮件用户名、密码
+			         return new PasswordAuthentication("XXXXX", "XXXX"); //发件人邮件用户名、密码
 			        }
 			       });
 			 
